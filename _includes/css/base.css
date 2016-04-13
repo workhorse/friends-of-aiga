@@ -21,6 +21,7 @@
 	#Forms
 	#Misc */
 
+@import url(https://fonts.googleapis.com/css?family=Karla:400,700);
 
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
@@ -52,7 +53,7 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 18px/21px 'Sailec Medium', "HelveticaNeue", Arial, sans-serif;
+		font: 18px/21px 'Karla', "HelveticaNeue", Arial, sans-serif;
 		color: #444;
 		letter-spacing: 1px;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
