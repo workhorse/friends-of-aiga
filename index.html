@@ -15,6 +15,7 @@
 	{% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
 </head>
 <body>
+	<canvas height='1' id='confetti' width='1'> </canvas>
   <div id="main">
 
     {% for page in site.posts reversed %}
