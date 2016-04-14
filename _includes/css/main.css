@@ -280,6 +280,7 @@ nav ul li:hover, nav ul li.active {
 
 .p-20000102what .container {
 	max-width: 750px;
+	margin-bottom: 50px;
 }
 
 .animated {
@@ -308,6 +309,9 @@ nav ul li:hover, nav ul li.active {
 }
 .cats {
 	background: url('img/cats.gif');
+}
+.hammer {
+	background: url('img/hammer.gif');
 }
 .p-20000102what h3:last-of-type {
 	margin-bottom: 0px;
@@ -340,13 +344,14 @@ nav ul li:hover, nav ul li.active {
 }
 
 .btn {
-	-webkit-appearance: none;
+	display: inline-block;
 	position: relative;
 	text-decoration: none;
 	font-size: 1.2em;
 	font-weight: bold;
 	color: #fff;
 	padding: 15px 35px;
+	margin-top: 10px;
 	border: 3px solid #fff;
 }
 .btn:hover::after {
@@ -418,6 +423,9 @@ nav ul li:hover, nav ul li.active {
 }
 #friends {
 	background-image: url('img/friends.png');
+}
+#workshop {
+	background-image: url('img/workshop.png');
 }
 
 

@@ -503,6 +503,10 @@ $(".friends").hover(
     function(e){ $( "#friends" ).css( "opacity", "1" );$( ".animated" ).addClass( "cats" ); },
     function(e){ $( "#friends" ).css( "opacity", "0" );$( ".animated" ).removeClass( "cats" ); }
 );
+$(".workshop").hover(
+    function(e){ $( "#workshop" ).css( "opacity", "1" );$( ".animated" ).addClass( "hammer" ); },
+    function(e){ $( "#workshop" ).css( "opacity", "0" );$( ".animated" ).removeClass( "hammer" ); }
+);
 
 $(document).on('mousemove', function(e){
     $('.emoji').css({
