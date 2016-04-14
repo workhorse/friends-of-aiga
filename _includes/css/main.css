@@ -275,6 +275,7 @@ nav ul li:hover, nav ul li.active {
 
 .p-20000102what {
 	padding: 5% 0px 5% 0px;
+  background-color: #f2f2f2;
 	background-size: cover !important;
 }
 
@@ -294,7 +295,7 @@ nav ul li:hover, nav ul li.active {
 	background-size: cover !important;
 	background-position: center center !important;
 	transition: all .25s linear;
-	z-index: 0;
+	z-index: 10;
 	pointer-events: none;
 	transition: all .25s linear;
 }
