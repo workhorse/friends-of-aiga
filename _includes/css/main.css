@@ -249,6 +249,7 @@ nav ul li:hover, nav ul li.active {
 }
 .bar h3 {
 	color: yellow;
+  font-weight: bold;
 }
 .bar h3, h4 {
 	margin-bottom: 0px !important;
@@ -360,7 +361,7 @@ nav ul li:hover, nav ul li.active {
 	width: 100%;
 }
 .btn:hover {
-	color: black;
+	color: #2a282a;
 	transition: all .25s linear;
 }
 
@@ -371,9 +372,10 @@ nav ul li:hover, nav ul li.active {
 	left: 0;
 	width: 0;
 	height: 100%;
-	background: white;
+	background: yellow;
 	transition: all .25s linear;
 	z-index: -10;
+  border: 3px solid #yellow;
 }
 
 .map {
@@ -431,7 +433,7 @@ nav ul li:hover, nav ul li.active {
 
 
 .footer {
-	background: black;
+	background: #2e2c2e;
 	color: white;
 	padding: 20px;
 	text-align: center;
@@ -568,7 +570,7 @@ nav ul li:hover, nav ul li.active {
 
 /* anything not desktop */
 @media only screen and (max-width: 767px) {
-	.container h1 { font-size: 30px; }
+	.container h1 { font-size: 40px; }
 	.container h2 { font-size: 24px; }
 	.container h3 { font-size: 20px; }
 	.container h4 { font-size: 18px; }
