@@ -486,3 +486,27 @@ document.addEventListener("DOMContentLoaded", function() {
     confetti.resize();
   });
 });
+
+$(".beer").hover(
+    function(e){ $( "#beer" ).css( "opacity", "1" );$( ".animated" ).addClass( "drinks" ); },
+    function(e){ $( "#beer" ).css( "opacity", "0" );$( ".animated" ).removeClass( "drinks" ); }
+);
+$(".two").hover(
+    function(e){ $( "#two" ).css( "opacity", "1" );$( ".animated" ).addClass( "dance" ); },
+    function(e){ $( "#two" ).css( "opacity", "0" );$( ".animated" ).removeClass( "dance" ); }
+);
+$(".doubled").hover(
+    function(e){ $( "#doubled" ).css( "opacity", "1" );$( ".animated" ).addClass( "team" ); },
+    function(e){ $( "#doubled" ).css( "opacity", "0" );$( ".animated" ).removeClass( "team" ); }
+);
+$(".friends").hover(
+    function(e){ $( "#friends" ).css( "opacity", "1" );$( ".animated" ).addClass( "five" ); },
+    function(e){ $( "#friends" ).css( "opacity", "0" );$( ".animated" ).removeClass( "five" ); }
+);
+
+$(document).on('mousemove', function(e){
+    $('.emoji').css({
+       left:  e.pageX,
+       top:   e.pageY
+    });
+});

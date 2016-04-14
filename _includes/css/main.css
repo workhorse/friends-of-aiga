@@ -182,10 +182,6 @@ nav ul li:hover, nav ul li.active {
 /* ----- sections/articles ----- */
 
 
-.p-20000101intro {
-	background: white;
-}
-
 .horse {
 	margin: 0 auto;
 	display: block;
@@ -251,6 +247,9 @@ nav ul li:hover, nav ul li.active {
 	border-top: 3px solid white;
 	padding-top:
 }
+.bar h3 {
+	color: yellow;
+}
 .bar h3, h4 {
 	margin-bottom: 0px !important;
 }
@@ -265,6 +264,8 @@ nav ul li:hover, nav ul li.active {
 	background-position: center center;
 	color: #fff;
 	min-height: 100vh;
+	z-index: 900;
+	background-attachment: fixed;
 }
 
 .p-20000103details {
@@ -274,6 +275,35 @@ nav ul li:hover, nav ul li.active {
 
 .p-20000102what {
 	padding: 10% 0px 10% 0px;
+	background-size: cover !important;
+}
+
+.animated {
+	content: '';
+	position: fixed;
+	opacity: .3	;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover !important;
+	background-position: center center !important;
+	transition: all .25s linear;
+	z-index: 0;
+	pointer-events: none;
+	transition: all .25s linear;
+}
+.drinks {
+	background: url('img/drinks.gif');
+}
+.dance {
+	background: url('img/dance.gif');
+}
+.team {
+	background: url('img/team.gif');
+}
+.five {
+	background: url('img/five.gif');
 }
 .p-20000102what h3:last-of-type {
 	margin-bottom: 0px;
@@ -300,7 +330,9 @@ nav ul li:hover, nav ul li.active {
 .p-20000105signup {
 	padding: 10% 0 10% 0;
 	background: url('img/pattern.jpg') repeat;
-	background-size: 300px
+	background-size: 300px;
+	background-attachment: fixed;
+	z-index: 100;
 }
 
 .btn {
@@ -316,6 +348,7 @@ nav ul li:hover, nav ul li.active {
 }
 
 
+
 #map {
 	width: 100%;
 	height: 450px;
@@ -326,6 +359,32 @@ nav ul li:hover, nav ul li.active {
 	background: rgba(255,255,255,.9);
 	max-width: 500px;
 	border-radius: 5px;
+}
+
+.emoji {
+	opacity: 0;
+	position: absolute;
+	background-image: url('img/beer.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 50px;
+	height: 100px;
+	z-index: 100;
+	transition: all .25s linear;
+	-webkit-transition: all .25s linear;
+}
+
+#beer {
+	background-image: url('img/beer.png');
+}
+#two {
+	background-image: url('img/two.png');
+}
+#doubled {
+	background-image: url('img/doubled.png');
+}
+#friends {
+	background-image: url('img/friends.png');
 }
 
 
