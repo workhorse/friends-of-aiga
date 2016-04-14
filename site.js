@@ -500,8 +500,8 @@ $(".doubled").hover(
     function(e){ $( "#doubled" ).css( "opacity", "0" );$( ".animated" ).removeClass( "team" ); }
 );
 $(".friends").hover(
-    function(e){ $( "#friends" ).css( "opacity", "1" );$( ".animated" ).addClass( "five" ); },
-    function(e){ $( "#friends" ).css( "opacity", "0" );$( ".animated" ).removeClass( "five" ); }
+    function(e){ $( "#friends" ).css( "opacity", "1" );$( ".animated" ).addClass( "cats" ); },
+    function(e){ $( "#friends" ).css( "opacity", "0" );$( ".animated" ).removeClass( "cats" ); }
 );
 
 $(document).on('mousemove', function(e){
