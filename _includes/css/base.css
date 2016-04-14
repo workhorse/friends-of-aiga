@@ -53,9 +53,8 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 18px/21px 'Karla', "HelveticaNeue", Arial, sans-serif;
+		font: 18px/21px "sofia-pro", "HelveticaNeue", Arial, sans-serif;
 		color: #444;
-		letter-spacing: -1.1px;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
 		overflow-x: hidden;

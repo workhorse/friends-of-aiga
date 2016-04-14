@@ -185,13 +185,13 @@ nav ul li:hover, nav ul li.active {
 .horse {
 	margin: 0 auto;
 	display: block;
-	width: 200px;
-	margin-bottom: 30px;
+	width: 150px;
+	margin-bottom: 60px;
 }
 .yellow {
 	font-size: 1.8em;
 	background: yellow;
-	padding: 30px;
+	padding: 16px;
 }
 .section {
   position:relative;
@@ -274,8 +274,12 @@ nav ul li:hover, nav ul li.active {
 }
 
 .p-20000102what {
-	padding: 10% 0px 10% 0px;
+	padding: 5% 0px 5% 0px;
 	background-size: cover !important;
+}
+
+.p-20000102what .container {
+	max-width: 750px;
 }
 
 .animated {
@@ -364,6 +368,12 @@ nav ul li:hover, nav ul li.active {
 	height: 450px;
 }
 
+.map .overlay {
+	width:100%;
+	min-height:500px;
+	position:absolute;
+	top:0;
+}
 
 
 #map {
@@ -405,18 +415,12 @@ nav ul li:hover, nav ul li.active {
 }
 
 
-
-
-
-#footer {
-  padding: 8px 0;
-  min-height:0;
-  text-align:center;
-  background-color:#2e2e2e;
-  background-image:none;
+.footer {
+	background: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
 }
-#footer .container p { font-size:13px; margin:0; }
-
 .subtlecircle {
   text-align:center;
   z-index:3;
