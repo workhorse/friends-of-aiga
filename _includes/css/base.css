@@ -21,7 +21,6 @@
 	#Forms
 	#Misc */
 
-@import url(https://fonts.googleapis.com/css?family=Karla:400,700);
 
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
@@ -57,7 +56,7 @@
 	body {
 		background: #fff;
 		font: 18px/21px "sofia-pro", "HelveticaNeue", Arial, sans-serif;
-		color: #444;
+		color: black;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
 		overflow-x: hidden;
