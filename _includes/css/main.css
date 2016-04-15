@@ -355,6 +355,8 @@ nav ul li:hover, nav ul li.active {
 	padding: 15px 35px;
 	margin-top: 10px;
 	border: 3px solid #fff;
+	transition: all .25s linear;
+	-webkit-transition: all .27s linear;
 }
 .btn:hover::after {
 	height: 100%;
@@ -362,7 +364,8 @@ nav ul li:hover, nav ul li.active {
 }
 .btn:hover {
 	color: #2a282a;
-	transition: all .25s linear;
+	transition: all .27s linear;
+	-webkit-transition: all .27s linear;
 }
 
 .btn::after {
@@ -605,4 +608,17 @@ nav ul li:hover, nav ul li.active {
     -moz-column-count:    2;
     column-count:         2;
   }
+}
+
+@media only screen and (max-width: 767px) {
+	.p-20000103details {
+		padding: 0px;
+	}
+	#confetti {
+	  display: none;
+	}
+	.tickets {
+		max-width: 90%;
+		padding: 20px;
+	}
 }
