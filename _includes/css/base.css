@@ -51,8 +51,11 @@
 
 /* #Basic Styles
 ================================================== */
+	html {
+		background: yellow;
+	}
 	body {
-		background: #yellow;
+		background: #fff;
 		font: 18px/21px "sofia-pro", "HelveticaNeue", Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
