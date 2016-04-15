@@ -130,53 +130,6 @@ hr {
 {% assign navborder = 3 %}
 {% assign navborder_active = 6 %}
 
-nav {
-  font-size:15px;
-  width:100%;
-  position:fixed;
-  z-index:100;
-  top:0;
-  left:0;
-  background:#2e2e2e;
-}
-
-nav ul {
-  list-style:none;
-  text-align:center;
-  padding:0;
-  margin:0;
-  letter-spacing:-4px;
-}
-
-nav ul li {
-  display:inline-block;
-  border-top:{{navborder}}px solid;
-  padding: {{navborder}}px;
-  *display:inline;
-  zoom:1;
-  line-height:normal;
-  letter-spacing:normal;
-  text-transform:uppercase;
-  min-width:110px;
-  line-height:60px;
-  margin:0;
-}
-
-nav ul li a, nav ul li a:visited {
-  display:block;
-  color:#fff;
-  text-decoration:none;
-  font-weight:600;
-  opacity:.75;
-}
-
-nav ul li a:hover {
-  opacity:1
-}
-nav ul li:hover, nav ul li.active {
-  border-top-width: {{navborder_active}}px;
-  padding-top: 0;
-}
 
 
 /* ----- sections/articles ----- */
@@ -357,28 +310,6 @@ nav ul li:hover, nav ul li.active {
 	border: 3px solid #fff;
 	transition: all .25s linear;
 	-webkit-transition: all .27s linear;
-}
-.btn:hover::after {
-	height: 100%;
-	width: 100%;
-}
-.btn:hover {
-	color: #2a282a;
-	transition: all .27s linear;
-	-webkit-transition: all .27s linear;
-}
-
-.btn::after {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 0;
-	height: 100%;
-	background: yellow;
-	transition: all .25s linear;
-	z-index: -10;
-  border: 3px solid #yellow;
 }
 
 .map {
@@ -613,6 +544,31 @@ nav ul li:hover, nav ul li.active {
 
 .link {
 	display: none;
+}
+@media only screen and (min-width: 767px) {
+
+	.btn:hover::after {
+		height: 100%;
+		width: 100%;
+	}
+	.btn:hover {
+		color: #2a282a;
+		transition: all .27s linear;
+		-webkit-transition: all .27s linear;
+	}
+
+	.btn::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 0;
+		height: 100%;
+		background: yellow;
+		transition: all .25s linear;
+		z-index: -10;
+	  border: 3px solid #yellow;
+	}
 }
 
 @media only screen and (max-width: 767px) {
