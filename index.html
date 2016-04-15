@@ -21,16 +21,14 @@
 	{% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
 </head>
 <body>
-	<div class="emoji" id="beer"></div>
-	<div class="emoji" id="two"></div>
-	<div class="emoji" id="doubled"></div>
-	<div class="emoji" id="friends"></div>
-	<div class="emoji" id="workshop"></div>
   <div id="main">
 		<canvas height='1' id='confetti' width='1'> </canvas>
+		<div class="emoji" id="beer"></div>
+		<div class="emoji" id="two"></div>
+		<div class="emoji" id="doubled"></div>
+		<div class="emoji" id="friends"></div>
+		<div class="emoji" id="workshop"></div>
 		<div class="animated gif"></div>
-
-
     {% for page in site.posts reversed %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
       <div id="{{id}}" class="section p-{{id}}">
