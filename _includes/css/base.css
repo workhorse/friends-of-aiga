@@ -97,7 +97,7 @@
 
 /* #Links
 ================================================== */
-	a, a:visited { text-decoration: underline; outline: 0; color: inherit;}
+	a, a:visited { text-decoration: underline; outline: 0; color: inherit;;}
 	a:hover, a:focus { }
 	p a, p a:visited { line-height: inherit; }
 
@@ -378,7 +378,7 @@ span.lineno {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  .container {
+  .underline {
     width: 750px;
   }
 }
