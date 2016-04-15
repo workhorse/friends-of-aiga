@@ -629,9 +629,9 @@ nav ul li:hover, nav ul li.active {
 		display: none;
 	}
 	.tickets {
+		margin: 0 auto;
 		text-align: center;
-		max-width: 90%;
-		padding: 20px;
+		width: 100%;
 	}
 	/*.tickets {
 		display: none;

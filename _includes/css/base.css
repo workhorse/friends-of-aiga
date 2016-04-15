@@ -52,6 +52,7 @@
 ================================================== */
 	html {
 		background: yellow;
+		overflow-x: hidden;
 	}
 	body {
 		background: #fff;
