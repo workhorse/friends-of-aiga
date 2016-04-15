@@ -569,6 +569,17 @@ hr {
 		z-index: -10;
 	  border: 3px solid #yellow;
 	}
+	.guests {
+		display: block;
+		margin-top: 50px;
+	}
+	.guests h2 {
+		font-size: 1.3em;
+	}
+	.guest .nvite-widget-entity {
+		height: 50px;
+		width: 50px;
+	}
 }
 
 @media only screen and (max-width: 767px) {
@@ -610,4 +621,6 @@ hr {
 	.p-20000103details iframe {
 		pointer-events: none;
 	}
+	.guests {
+		display: none;
 }
