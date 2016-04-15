@@ -614,7 +614,14 @@ nav ul li:hover, nav ul li.active {
   }
 }
 
+.link {
+	display: none;
+}
+
 @media only screen and (max-width: 767px) {
+	.p-20000101intro {
+		background-attachment: scroll;
+	}
 	.p-20000103details {
 		padding: 0px;
 	}
@@ -622,7 +629,23 @@ nav ul li:hover, nav ul li.active {
 	  display: none;
 	}
 	.tickets {
+		text-align: center;
 		max-width: 90%;
 		padding: 20px;
+	}
+	.tickets {
+		display: none;
+	}
+	.link {
+		display: block;
+		text-align: center;
+		max-width: 90%;
+		margin: 0 auto;
+	}
+	.link .btn {
+		z-index: 100;
+		margin-top: 0px;
+		background: white;
+		width: 80%;
 	}
 }
