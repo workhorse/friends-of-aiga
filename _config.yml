@@ -11,13 +11,14 @@ exclude: [CNAME, README.md, .gitignore]
 timezone: null
 lsi: false
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 
 ### content configuration ###
 title:       "Workhorse - Party"
 keywords:    "SinglePaged, jekyll, template, github, blog, single page"
 description: "Workhorse 2nd Anniversary Party"
+url: "http://workhorse.github.io/"
 favicon:     "img/favicon.ico"
 google_analytics_key: UA-76137291-2 ## put YOUR key here to enable tracking! (blank to disable)
 
