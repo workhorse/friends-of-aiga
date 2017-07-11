@@ -21,6 +21,8 @@
 	#Forms
 	#Misc */
 
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Merriweather:300,400');
+
 
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
@@ -56,28 +58,31 @@
 	}
 	body {
 		background: #fff;
-		font: 18px/21px "sofia-pro", "HelveticaNeue", Arial, sans-serif;
+		font: 18px/21px 'Merriweather', "HelveticaNeue", Arial, sans-serif;
 		color: black;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
 		overflow-x: hidden;
+		font-weight: 300;
+
  }
 
 
 /* #Typography
 ================================================== */
+
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-	h1 { font-size: 50px; line-height: 52px; margin-bottom: 14px;}
+	h1 { font-size: 40px; line-height: 52px; margin-bottom: 14px;}
 	h2 { font-size: 35px; line-height: 42px; margin-bottom: 10px; }
-	h3 { font-size: 28px; line-height: 40px; margin-bottom: 20px; }
-	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+	h3 { font-family: 'Inconsolata', monospace; font-size: 28px; line-height: 40px; margin-bottom: 20px; }
+	h4 { font-family: 'Inconsolata', monospace;  font-size: 21px; line-height: 30px; margin-bottom: 4px; }
 	h5 { font-size: 17px; line-height: 24px; }
 	h6 { font-size: 14px; line-height: 21px; }
 	.subheader { color: #777; }
 
-	p { margin: 0 0 20px 0; }
+	p { margin: 0 0 20px 0; line-height: 3em; }
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
@@ -155,7 +160,7 @@
 	  margin-bottom: 20px;
 	  line-height: normal;
 	  padding: 8px 10px;
-	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+	  font-family:  'Inconsolata', monospace, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 	.button:hover,
 	button:hover,

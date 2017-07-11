@@ -135,10 +135,10 @@ hr {
 /* ----- sections/articles ----- */
 
 
-.horse {
+.badge {
 	margin: 0 auto;
 	display: block;
-	width: 150px;
+	width: 200px;
 	margin-bottom: 60px;
 }
 .yellow {
@@ -292,7 +292,7 @@ hr {
 
 .p-20000105signup {
 	padding: 10% 0 10% 0;
-	background: url('img/pattern.jpg') repeat;
+	background-color: #333333;
 	background-size: 300px;
 	background-attachment: fixed;
 	z-index: 100;
@@ -310,6 +310,7 @@ hr {
 	border: 3px solid #fff;
 	transition: all .25s linear;
 	-webkit-transition: all .27s linear;
+	font-family: 'Inconsolata', monospace, sans-serif;
 }
 
 .map {
@@ -367,6 +368,10 @@ hr {
 }
 #workshop {
 	background-image: url('img/workshop.png');
+}
+
+h2.nvite-widget-heading {
+	color: white;
 }
 
 
