@@ -500,13 +500,22 @@ $(".doubled").hover(
     function(e){ $( "#doubled" ).css( "opacity", "0" );$( ".animated" ).removeClass( "team" ); }
 );
 $(".friends").hover(
-    function(e){ $( "#friends" ).css( "opacity", "1" );$( ".animated" ).addClass( "cats" ); },
-    function(e){ $( "#friends" ).css( "opacity", "0" );$( ".animated" ).removeClass( "cats" ); }
+    function(e){ $( "#friends" ).css( "opacity", "1" );$( ".animated" ).addClass( "sesame" ); },
+    function(e){ $( "#friends" ).css( "opacity", "0" );$( ".animated" ).removeClass( "sesame" ); }
 );
 $(".workshop").hover(
-    function(e){ $( "#workshop" ).css( "opacity", "1" );$( ".animated" ).addClass( "hammer" ); },
-    function(e){ $( "#workshop" ).css( "opacity", "0" );$( ".animated" ).removeClass( "hammer" ); }
+    function(e){ $( "#workshop" ).css( "opacity", "1" );$( ".animated" ).addClass( "hours" ); },
+    function(e){ $( "#workshop" ).css( "opacity", "0" );$( ".animated" ).removeClass( "hours" ); }
 );
+$(".life").hover(
+    function(e){ $( "#life" ).css( "opacity", "1" );$( ".animated" ).addClass( "frank" ); },
+    function(e){ $( "#life" ).css( "opacity", "0" );$( ".animated" ).removeClass( "frank" ); }
+);
+$(".share").hover(
+    function(e){ $( "#share" ).css( "opacity", "1" );$( ".animated" ).addClass( "confetti" ); },
+    function(e){ $( "#share" ).css( "opacity", "0" );$( ".animated" ).removeClass( "confetti" ); }
+);
+
 
 $(document).on('mousemove', function(e){
     $('.emoji').css({

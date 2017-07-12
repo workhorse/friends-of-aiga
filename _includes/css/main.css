@@ -260,13 +260,19 @@ hr {
 	background: url('img/dance.gif');
 }
 .team {
-	background: url('img/team.gif');
+	background: url('img/squad.gif');
 }
-.cats {
-	background: url('img/cats.gif');
+.sesame {
+	background: url('img/sesame.gif');
 }
-.hammer {
-	background: url('img/hammer.gif');
+.hours {
+	background: url('img/hours.gif');
+}
+.frank {
+	background: url('img/frank.webp');
+}
+.confetti {
+	background: url('img/confetti.gif');
 }
 .p-20000102what h3:last-of-type {
 	margin-bottom: 0px;
@@ -357,7 +363,6 @@ hr {
   color: #666;
 }
 #two {
-
   background-image: url('img/two.png');
 }
 #doubled {
@@ -368,6 +373,12 @@ hr {
 }
 #workshop {
 	background-image: url('img/workshop.png');
+}
+#share {
+	background-image: url('img/100.png');
+}
+#life {
+	background-image: url('img/fire.png');
 }
 
 h2.nvite-widget-heading {
