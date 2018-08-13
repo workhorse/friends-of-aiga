@@ -491,6 +491,18 @@ $(".beer").hover(
     function(e){ $( "#beer" ).css( "opacity", "1" );$( ".animated" ).addClass( "drinks" ); },
     function(e){ $( "#beer" ).css( "opacity", "0" );$( ".animated" ).removeClass( "drinks" ); }
 );
+$(".frozen").hover(
+    function(e){ $( "#frozen-drinks" ).css( "opacity", "1" );$( ".animated" ).addClass( "frozen-drinks" ); },
+    function(e){ $( "#frozen-drinks" ).css( "opacity", "0" );$( ".animated" ).removeClass( "frozen-drinks" ); }
+);
+$(".tunes").hover(
+    function(e){ $( "#summer-tunes" ).css( "opacity", "1" );$( ".animated" ).addClass( "summer-tunes" ); },
+    function(e){ $( "#summer-tunes" ).css( "opacity", "0" );$( ".animated" ).removeClass( "summer-tunes" ); }
+);
+$(".vibes").hover(
+    function(e){ $( "#good-vibes" ).css( "opacity", "1" );$( ".animated" ).addClass( "good-vibes" ); },
+    function(e){ $( "#good-vibes" ).css( "opacity", "0" );$( ".animated" ).removeClass( "good-vibes" ); }
+);
 $(".two").hover(
     function(e){ $( "#two" ).css( "opacity", "1" );$( ".animated" ).addClass( "dance" ); },
     function(e){ $( "#two" ).css( "opacity", "0" );$( ".animated" ).removeClass( "dance" ); }

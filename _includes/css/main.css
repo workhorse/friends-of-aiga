@@ -256,6 +256,15 @@ hr {
 .drinks {
 	background: url('img/drinks.gif');
 }
+.frozen-drinks {
+	background: url('img/frozen-drinks.gif');
+}
+.summer-tunes {
+	background: url('img/dinosaur-dance.gif');
+}
+.good-vibes {
+	background: url('img/vibes.gif');
+}
 .dance {
 	background: url('img/dance.gif');
 }
@@ -365,8 +374,20 @@ hr {
 #two {
   background-image: url('img/two.png');
 }
+#frozen-drinks {
+  background-image: url('img/frozen-drink.png');
+}
+#summer-tunes {
+  background-image: url('img/radio.png');
+}
+#good-vibes {
+  background-image: url('img/radio.png');
+}
 #doubled {
 	background-image: url('img/doubled.png');
+}
+#tunes {
+	background-image: url('img/radio.png');
 }
 #friends {
 	background-image: url('img/friends.png');
