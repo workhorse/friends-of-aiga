@@ -253,9 +253,7 @@ hr {
 	pointer-events: none;
 	transition: all .25s linear;
 }
-.drinks {
-	background: url('img/drinks.gif');
-}
+
 .frozen-drinks {
 	background: url('img/frozen-drinks.gif');
 }
@@ -374,14 +372,14 @@ hr {
 #two {
   background-image: url('img/two.png');
 }
-#frozen-drinks {
+#frozen {
   background-image: url('img/frozen-drink.png');
 }
-#summer-tunes {
+#tunes {
   background-image: url('img/radio.png');
 }
-#good-vibes {
-  background-image: url('img/radio.png');
+#vibes {
+  background-image: url('img/friends.png');
 }
 #doubled {
 	background-image: url('img/doubled.png');
