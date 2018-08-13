@@ -229,7 +229,8 @@ hr {
 
 .p-20000102what {
 	padding: 5% 0px 5% 0px;
-  background-color: #f2f2f2;
+  background-color: #000000;
+	color: white;
 	background-size: cover !important;
 }
 
