@@ -141,6 +141,13 @@ hr {
 	width: 200px;
 	margin-bottom: 60px;
 }
+.titles {
+	margin: 0 auto;
+	display: block;
+	max-width: 800px !important;
+	margin-bottom: 60px;
+	width: 100%;
+}
 .yellow {
 	font-size: 1.8em;
 	background: yellow;
@@ -294,8 +301,9 @@ hr {
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgba(0,0,0,.5);
+	background-color: rgba(0,0,0,.8);
 	z-index: 0;
+
 }
 .row {
 	margin-bottom: 0px;
