@@ -215,6 +215,9 @@ hr {
 }
 .bar h3 {
 	color: yellow;
+	background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);	padding: 16px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
   font-weight: bold;
 }
 .bar h3, h4 {
@@ -332,13 +335,14 @@ hr {
 	text-decoration: none;
 	font-size: 1.2em;
 	font-weight: bold;
-	color: yellow;
+	color: white;
 	padding: 15px 35px;
 	margin-top: 10px;
 	border: 3px solid #fff;
 	transition: all .25s linear;
 	-webkit-transition: all .27s linear;
 	font-family: 'Inconsolata', monospace, sans-serif;
+	background-image: none;
 }
 
 .map {
@@ -600,6 +604,7 @@ h2.nvite-widget-heading {
 	.btn:hover::after {
 		height: 100%;
 		width: 100%;
+		background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);	padding: 16px;
 	}
 	.btn:hover {
 		color: #2a282a;
@@ -612,12 +617,10 @@ h2.nvite-widget-heading {
 		position: absolute;
 		top: 0;
 		left: 0;
-		width: 0;
+		width: 0px;
 		height: 100%;
-		background: yellow;
 		transition: all .25s linear;
 		z-index: -10;
-	  border: 3px solid #yellow;
 	}
 	.guests {
 		display: block;
