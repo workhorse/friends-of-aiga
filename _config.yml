@@ -15,9 +15,9 @@ highlighter: rouge
 
 
 ### content configuration ###
-title:       "Friends of AIGA - 2019"
-keywords:    "AIGA, dc, DC, workhorse, wrkhrsco"
-description: ""Friends of AIGA DC" end of year party"
+title:       "Workhorse"
+keywords:    "SinglePaged, jekyll, template, github, blog, single page"
+description: "Workhorse Party"
 url: "http://workhorse.github.io/"
 favicon:     "img/favicon.ico"
 google_analytics_key: UA-76137291-2 ## put YOUR key here to enable tracking! (blank to disable)
