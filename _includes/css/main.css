@@ -138,13 +138,13 @@ hr {
 .badge {
 	margin: 0 auto;
 	display: block;
-	width: 200px;
+	width: 300px;
 	margin-bottom: 60px;
 }
 .titles {
 	margin: 0 auto;
 	display: block;
-	max-width: 800px !important;
+	max-width: 450px !important;
 	margin-bottom: 60px;
 	width: 100%;
 }
@@ -152,6 +152,11 @@ hr {
 	font-size: 1.8em;
 	background: yellow;
 	padding: 16px;
+	color: black;
+}
+.gradient {
+	font-size: 1.8em;
+	background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);	padding: 16px;
 	color: black;
 }
 .section {
@@ -301,7 +306,7 @@ hr {
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgba(0,0,0,.8);
+	background-color: rgba(0,0,0,.6);
 	z-index: 0;
 
 }

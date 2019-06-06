@@ -139,19 +139,19 @@ var retina = window.devicePixelRatio,
 
 document.addEventListener("DOMContentLoaded", function() {
   var speed = 50,
-    duration = (1.0 / speed),
+    duration = (2.0 / speed),
     confettiRibbonCount = 16,
     ribbonPaperCount = 3,
-    ribbonPaperDist = 10.0,
+    ribbonPaperDist = 8.0,
     ribbonPaperThick = .0,
     confettiPaperCount = 95,
     DEG_TO_RAD = PI / 180,
     RAD_TO_DEG = 180 / PI,
     colors = [
-      ["#FFF", "#ffff00"],
-      ["#FFF", "#666666"],
-      ["#FFF", "#ffff00"],
-      ["#FFF", "#666666"],
+      ["#FFF", "#e94595"],
+      ["#FFF", "#eebb22"],
+      ["#FFF", "#4c8468"],
+      ["#FFF", "#5369f2"],
     ];
 
   function Vector2(_x, _y) {
