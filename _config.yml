@@ -15,9 +15,9 @@ highlighter: rouge
 
 
 ### content configuration ###
-title:       "Workhorse"
+title:       "Workhorse || Friends of AIGA"
 keywords:    "SinglePaged, jekyll, template, github, blog, single page"
-description: "Workhorse Party"
+description: "Friends of AIGA End of Year Party"
 url: "http://workhorse.github.io/"
 favicon:     "img/favicon.ico"
 google_analytics_key: UA-76137291-2 ## put YOUR key here to enable tracking! (blank to disable)
