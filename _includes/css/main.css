@@ -230,9 +230,9 @@ hr {
 	background-size: cover;
 	background-position: center center;
 	color: #fff;
-	min-height: 100vh;
 	z-index: 900;
 	background-attachment: fixed;
+	padding: 40px 0px 40px 0px;
 }
 
 .p-20000103details {
