@@ -1,7 +1,6 @@
-Site for Workhorse's 2nd Year Anniversary Site
+Landing page for Friends of AIGA DC End of Year Party 2019
 ======================
 
-Site: [http://party.wrkhrs.co](http://party.wrkhrs.co)  
+Site: [http://party.wrkhrs.co](http://friends.wrkhrs.co)  
 
-Original Jekyll template: [https://github.com/t413/SinglePaged](https://github.com/t413/SinglePaged)  
 Cool confetti source: [http://codepen.io/edouerd/pen/MaKzLE](http://codepen.io/edouerd/pen/MaKzLE)
