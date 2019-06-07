@@ -20,7 +20,7 @@ keywords:    "SinglePaged, jekyll, template, github, blog, single page"
 description: "Friends of AIGA End of Year Party"
 url: "http://workhorse.github.io/"
 favicon:     "img/favicon.ico"
-google_analytics_key: UA-76137291-2 ## put YOUR key here to enable tracking! (blank to disable)
+google_analytics_key: UA-76137291-4  ## put YOUR key here to enable tracking! (blank to disable)
 
 
 ### template colors, used site-wide via css ###
